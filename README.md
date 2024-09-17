@@ -1,7 +1,7 @@
-# Truck-Fleet-Risk-Analysis-using-Hadoop
+# 🚛 Truck-Fleet-Risk-Analysis-using-Hadoop
 This project focuses on analyzing truck drivers' risk factors for a fictional national trucking company, AZ National Trucking (ANT), to enhance safety and compliance. The primary goal is to identify high-risk drivers based on factors such as speeding, lane departures, and unsafe following. Using Hadoop tools for data processing and Tableau for visualizations, the project analyzes driver behavior and truck data to mitigate risks associated with trucking accidents.
 
-Key Steps:
+🔍Key Steps:
 
 Data Collection: Geographic data (latitude, longitude, city, state) and truck fleet data (mileage, fuel consumption, events, etc.) are gathered from public resources. This data is enriched with risk factors such as speed and unsafe driving practices.
 
@@ -9,7 +9,7 @@ Data Processing: The data is processed using the Hadoop ecosystem (HDFS, Hive). 
 
 Analysis: Risk factors are calculated for each driver. Drivers with a risk factor exceeding a threshold of 7 are flagged as high-risk. Tableau is used to visualize the data and create risk profiles for individual drivers and truck models. The analysis identifies high-risk behaviors such as frequent lane departures and overspeeding, which are concentrated in regions like Hollister and other cities with high accident rates.
 
-Results:
+📈Results:
 
 Driver A97 is identified as the riskiest driver, involved in multiple speeding and lane departure incidents.
 
@@ -20,7 +20,7 @@ Risk Patterns: Overspeeding and unsafe following distance are the most common hi
 Geographic Insights: Cities like Hollister have the highest risk, with lane departures being the most common cause of incidents.
 
 
-Technologies Used:
+📊Technologies Used:
 
 Hadoop Ecosystem: For data storage and processing.
 
@@ -35,7 +35,7 @@ Python: Used for handling data transformations and custom scripts.
 JDBC/ODBC Drivers: For connecting Hadoop data with Tableau for analytics.
 
 
-Advantages:
+💡Advantages:
 
 Data-Driven Insights: The project provides critical insights into driver behavior and vehicle performance, allowing the company to make data-driven decisions on risk mitigation.
 
